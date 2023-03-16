@@ -1,3 +1,4 @@
+//Program by STACEY ANDREW GONZAGA
 import java.text.DecimalFormat;  
 import javax.swing.JOptionPane;
 
@@ -22,6 +23,6 @@ public class HairLength {
         "Hair length average: " + decfor.format(average) +
         "\nTotal hair length: " + decfor.format(totalLength) + "cm\n" +
         "Total length in km: " + kmLength + "km\n" +
-        "Total length in miles: " + mileLength + "m");
+        "Total length in miles: " + mileLength + "m", "Program by STACEY ANDREW GONZAGA", JOptionPane.INFORMATION_MESSAGE);
     }
 }

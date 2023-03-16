@@ -1,3 +1,4 @@
+//Program by STACEY ANDREW GONZAGA
 import javax.swing.JOptionPane;
 
 public class FlashDrive {
@@ -12,7 +13,6 @@ public class FlashDrive {
         "Hi Mr. Lee, you have " + 
         gross + " gross, " + 
         dozen + " dozen, and " + 
-        extra + " extra flash drives.");
-        
+        extra + " extra flash drives.", "Program by STACEY ANDREW GONZAGA", JOptionPane.INFORMATION_MESSAGE);
     }
 }

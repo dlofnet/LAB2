@@ -1,7 +1,12 @@
+//Program by STACEY ANDREW GONZAGA
+import java.text.DecimalFormat;
+
 import javax.swing.JOptionPane;
 
 public class NetOfEmployee {
     public static void main(String[] args) throws Exception {
+
+        DecimalFormat df = new DecimalFormat("0.00");
         
         final float SSS = 175.89f;
         final float PhilHealth = 300f;
@@ -16,6 +21,6 @@ public class NetOfEmployee {
         float totalDeduction = absences + late + SSS + PhilHealth;
         float net = (gross) - totalDeduction;
 
-        JOptionPane.showMessageDialog(null, "Employee's tak home pay is: " + net);
+        JOptionPane.showMessageDialog(null, "Employee's tak home pay is: " + df.format(net), "Program by STACEY ANDREW GONZAGA", JOptionPane.INFORMATION_MESSAGE);
     }
 }
